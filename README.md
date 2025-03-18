@@ -78,15 +78,22 @@ EVENTO is a next-generation event management platform designed for **inter-colle
 ---
 
 ## 🛠️ Setup & Installation
-### 🔹 Clone the Repository
+### 🔹 Open Project in VS Code
+1. Open the project folder in VS Code.
+2. Navigate to the backend folder.
+
+### 🔹 Backend Setup
 ```sh
- git clone https://github.com/your-repo/evento.git
- cd evento
+ cd backend
+ npm install
+ node server.js
 ```
 
-### 🔹 Install Dependencies
+### 🔹 Frontend Setup
 ```sh
+ cd frontend
  npm install
+ npm start
 ```
 
 ### 🔹 Configure Firebase
@@ -94,10 +101,6 @@ EVENTO is a next-generation event management platform designed for **inter-colle
 2. Enable Firestore, Authentication, and Storage.
 3. Add Firebase config to `.env.local`.
 
-### 🔹 Run the Development Server
-```sh
- npm start
-```
 
 ---
 
